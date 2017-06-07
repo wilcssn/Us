@@ -1,3 +1,4 @@
+import { RegistrarPage } from './../pages/registrar/registrar';
 import { LoginPage } from './../pages/login/login';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -14,7 +15,8 @@ import { LoginProvider } from '../providers/login/login';
   declarations: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    RegistrarPage
   ],
   imports: [
     BrowserModule,
@@ -24,7 +26,8 @@ import { LoginProvider } from '../providers/login/login';
   entryComponents: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    RegistrarPage
   ],
   providers: [
     StatusBar,
