@@ -1,4 +1,4 @@
-import { LoginProvider } from './../../providers/login/login';
+
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -15,7 +15,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class RegistrarPage {
 
-  constructor(public navCtrl: NavController, public loginProvider:LoginProvider) {
+  constructor(public navCtrl: NavController) {
   }
 
   ionViewDidLoad() {
